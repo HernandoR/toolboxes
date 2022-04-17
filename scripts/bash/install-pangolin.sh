@@ -1,6 +1,5 @@
 
-INSTALL_PATH="~/Codes/Dependents"
-
+\
 
 # 1. KEEP UBUNTU OR DEBIAN UP TO DATE
 
@@ -15,9 +14,8 @@ sudo apt-get install libglew-dev
 sudo apt-get install cmake  
 sudo apt-get install libboost-dev libboost-thread-dev libboost-filesystem-dev
 
-cd INSTALL_PATH
 # 3. INSTALL THE LIBRARY
-git clone https://github.com/zzx2GH/Pangolin.git
+git clone https://github.com/stevenlovegrove/Pangolin.git
 
 # 4. make and install
 cd Pangolin  
@@ -26,7 +24,6 @@ cd build
 cmake ..  
 make -j4
 
-make -j8
 sudo make install
 sudo ldconfig
 
