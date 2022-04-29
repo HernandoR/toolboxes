@@ -1,0 +1,14 @@
+git clone https://github.com/RainerKuemmerle/g2o.git
+
+sudo apt-get install libeigen3-dev
+sudo apt-get install libsuitesparse-dev
+sudo apt-get install qtdeclarative5-dev
+sudo apt-get install qt5-qmake
+sudo apt-get install libqglviewer-dev
+
+cd g2o
+mkdir build
+cd build
+cmake ..
+make
+sudo make install

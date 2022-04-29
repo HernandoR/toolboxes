@@ -67,12 +67,12 @@ sudo apt-get install -y ant default-jdk
 # Documentation and other:
 sudo apt-get install -y doxygen unzip wget
 
-
+#;s
 # 3. INSTALL THE LIBRARY
 
-wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip
-unzip ${OPENCV_VERSION}.zip && rm ${OPENCV_VERSION}.zip
-mv opencv-${OPENCV_VERSION} OpenCV
+# wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip
+# unzip ${OPENCV_VERSION}.zip && rm ${OPENCV_VERSION}.zip
+# mv opencv-${OPENCV_VERSION} OpenCV
 
 if [ $OPENCV_CONTRIB = 'YES' ]; then
   wget https://github.com/opencv/opencv_contrib/archive/${OPENCV_VERSION}.zip
@@ -94,7 +94,7 @@ cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON 
       -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ..
 fi
 
-make -j8
+make -j3
 sudo make install
 sudo ldconfig
 
