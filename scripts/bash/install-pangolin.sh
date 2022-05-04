@@ -10,7 +10,7 @@ sudo apt-get -y update
 
 
 # 2. INSTALL THE DEPENDENCIES
-sudo apt-get install libglew-dev  
+sudo apt-get install libglew-dev libeigen3-dev
 sudo apt-get install cmake  
 sudo apt-get install libboost-dev libboost-thread-dev libboost-filesystem-dev
 

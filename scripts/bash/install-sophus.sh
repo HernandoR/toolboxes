@@ -1,3 +1,7 @@
+
+
+sudo apt install libfmt-dev 
+
 git clone https://github.com/strasdat/Sophus.git
 cd Sophus/
  
