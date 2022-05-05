@@ -1,0 +1,5 @@
+XSym
+0031
+37fb7aca8478833c4d332d522c3a7238
+../../docs/highlighters/root.md
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

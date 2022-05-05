@@ -1,0 +1,5 @@
+XSym
+0035
+e7a323864218d00a207bba9053ac12f7
+../../docs/highlighters/brackets.md
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

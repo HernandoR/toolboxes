@@ -1,0 +1,5 @@
+XSym
+0033
+b7de9b985f4ec9e69215174c3fb950b9
+../../docs/highlighters/regexp.md
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
