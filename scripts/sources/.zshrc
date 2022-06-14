@@ -120,8 +120,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval $(thefuck --alias fuck)
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa_on_mac
+# eval "$(ssh-agent -s)"
+# ssh-add ~/.ssh/id_rsa_on_mac
 
 
 # auto seggestion colour VITAL!!!
