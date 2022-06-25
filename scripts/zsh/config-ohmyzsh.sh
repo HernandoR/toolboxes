@@ -6,7 +6,7 @@
 # chmod +x ../sources/install-oh-my-zsh.sh
 # ../sources/install-oh-my-zsh.sh
 
-echo "copy cnfig"
+echo "copying config"
 
 cp ../sources/.zshrc ~/.zshrc
 
