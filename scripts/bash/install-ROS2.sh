@@ -56,3 +56,15 @@ sudo sh -c 'echo "deb [arch='$arch'] http://packages.ros.org/ros2/ubuntu $(lsb_r
 sudo apt update
 sudo apt upgrade
 sudo apt install ros-$ROS2_DISTRO-desktop
+
+# configure the environment by shell
+if [ $SHELL = "/bin/bash" ]; then
+    echo "source /opt/ros/$ROS2_DISTRO/setup.bash" >> ~/.bashrc
+    source ~/.bashrc
+elif [ $SHELL = "/bin/zsh" ]; then
+    echo "source /opt/ros/$ROS2_DISTRO/setup.zsh" >> ~/.zshrc
+    source ~/.zshrc
+else
+    echo "Unsupported shell"
+    exit 1
+fi
