@@ -6,6 +6,10 @@
 # chmod +x ../sources/install-oh-my-zsh.sh
 # ../sources/install-oh-my-zsh.sh
 
+echo "seting hardware timezone to loacl"
+
+timedatectl set-local-rtc 1 --adjust-system-clock
+
 echo "copying config"
 
 cp ../sources/.zshrc ~/.zshrc
