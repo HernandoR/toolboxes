@@ -6,6 +6,7 @@
 # |------------------------------------|
 # | OS             | Test | Last test  |
 # |----------------|------|------------|
+# | Debian 11.3    | OK   | 9 Jul 2022 |
 # | Debian 11.0    | OK   | 8 Oct 2021 |
 # | Debian 10.1    | OK   | 7 Oct 2019 |
 
@@ -56,3 +57,4 @@ sudo apt-get install -y ffmpeg                              # VIDEO MANIPULATION
 # sudo apt-get install -y kazam                               # SCREENCAST (optional)
 # sudo apt-get install -y libreoffice                       # OFFICE (optional, not last version)
 # sudo apt-get install -y texlive-full texmaker             # LATEX (optional, heavy package)
+# sudo apt-get install -y imagemagick                       # IMAGE MANIPULATION PROGRAM (optional)
