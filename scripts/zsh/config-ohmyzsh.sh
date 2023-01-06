@@ -70,25 +70,3 @@ if ${setp10k:-true}; then
     # install powerline fonts
     echo "PLZ set font to fira powerline in terminal"
 fi
-
-
-# echo "seting hardware timezone to loacl"
-
-# timedatectl set-local-rtc 1 --adjust-system-clock
-
-# echo "copying config"
-
-# cp ../sources/.zshrc ~/.zshrc
-
-# mv ~/.oh-my-zsh/custom ~/.oh-my-zsh/custom.bkp
-
-# cp -r ../sources/oh-my-zsh/custom ~/.oh-my-zsh/custom
-
-
-# unfinished
-#exit 1
-
-# git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
-# un comment below for china
-#git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git  ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
